@@ -1,0 +1,24 @@
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url(./img/background.jpeg) 
+                no-repeat
+                center;
+    background-size: cover;
+    filter: grayscale(100);
+    z-index: -1;
+    
+
+    bottom: 0;
+
+}
+
